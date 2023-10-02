@@ -157,13 +157,29 @@ height:auto;
 }
 
 .bottom-right{
-    margin-top: 20px;
     font-size: smaller;
-    bottom: 0;
     float: right;
+    word-wrap: break-word;
 }
 
 .font{
   font-weight: 100;
   color: black;
+}
+
+.github{
+ display: flex;
+ align-items: center;
+ float: right;
+ font-size: small;
+}
+
+.github-img{
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.github-a{
+  text-decoration: none;
 }
